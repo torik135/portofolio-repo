@@ -1,0 +1,22 @@
+.reactnext-container {
+  background: yellow;
+}
+.reactnext-header {
+  background: red;
+}
+
+.reactnext-content {
+  background: blue;
+}
+
+.reactnext-content_header {
+  background: blueviolet;
+}
+
+.reactnext-content_desc {
+  background: burlywood;
+}
+
+.reactnext-content_tech {
+  background: chartreuse;
+}
