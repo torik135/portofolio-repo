@@ -4,9 +4,9 @@ const Header = () => {
     return (
         <div className="header-container">
             <div className="header-logo">
-                <h3>logo github</h3>
+                <h3>logo</h3>
                 <a href={link_code}>
-                    <h4>torik135</h4>
+                    <h4>github.com/torik135</h4>
                 </a>
             </div>
             
