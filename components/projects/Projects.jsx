@@ -7,7 +7,7 @@ const Projects = ({name, code, web_link, desc, author, tech}) => {
             <p className="projects-author">{author}</p>
             
             <h2>{name}</h2>
-            <a href={code} className="projects-code" target="_blank" rel="noreferrer">{code}</a>
+            <a href={code} className="projects-code" target="_blank" rel="noreferrer">source</a>
 
             <div className="divider"></div>
             

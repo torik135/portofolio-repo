@@ -17,6 +17,15 @@
   flex-direction: column;
   width: 13rem;
   padding-right: 2rem;
+  border: 2px solid var(--color-text-light);
+  border-radius: 16px;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  justify-content: space-between;
+}
+
+.container-card_header p {
+  color: var(--color-text);
 }
 
 .container-content {

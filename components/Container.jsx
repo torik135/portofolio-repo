@@ -7,12 +7,12 @@ const Container = () => {
     return (
         <div className="container">
 
-            <div className="divider"></div>
+            {/* <div className="divider"></div> */}
 
             <div className="container-card">
                 <div className="container-card_header">
                     <h2>HTML & CSS</h2>
-                    <p>this web use HTML & css (native or framework) only</p>
+                    <p>this web use HTML & css (native or framework)</p>
                 </div>
 
                 <div className="container-content card-list">
@@ -36,7 +36,7 @@ const Container = () => {
 
             </div>
     
-            <div className="divider"></div>
+            {/* <div className="divider"></div> */}
 
             <div className="container-card">
                 <div className="container-card_header">
