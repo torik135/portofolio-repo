@@ -1,7 +1,9 @@
-import '../styles/colors.css'
+import '../styles/index.css'
 import '../styles/globals.css'
 
 import '../styles/container.css'
+import '../styles/credits.css'
+import '../styles/dropdown.css'
 import '../styles/projects.css'
 
 import '../styles/header.css'

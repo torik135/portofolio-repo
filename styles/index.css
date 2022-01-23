@@ -66,6 +66,15 @@
     -1rem 0 3rem var(--color-bg);
   --box-shadow-green: -2px 0 1px var(--color-gredient1),
     -1rem 0 3rem var(--color-bg);
+
+  /* CREDITS */
+  --bg: #242526;
+  --text-color: #dadce1;
+  --nav-size: 60px;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 500ms;
+  --button-size: calc(var(--nav-size) * 0.8);
 }
 
 .box-shadow-yellow {

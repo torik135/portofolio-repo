@@ -1,3 +1,6 @@
+import Credits from './credits/Credits'
+
+
 const link_code = 'http://github.com/torik135'
 
 const Header = () => {
@@ -8,6 +11,9 @@ const Header = () => {
                 <a href={link_code}>
                     <h4>github.com/torik135</h4>
                 </a>
+            </div>
+            <div className="header-credits">
+                <Credits/>
             </div>
             
         </div>
