@@ -1,7 +1,11 @@
-import '../styles/container.css'
+import '../styles/colors.css'
 import '../styles/globals.css'
-import '../styles/header.css'
+
+import '../styles/container.css'
 import '../styles/projects.css'
+
+import '../styles/header.css'
+import '../styles/footer.css'
 
 // card teomplate
 import '../styles/cardcss/card.css'

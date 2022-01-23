@@ -1,5 +1,5 @@
 .projects-container {
-  background: yellow;
+  background: var(--color-bg);
 }
 
 .projects-container h2 {
@@ -10,8 +10,8 @@
 }
 
 .projects-live {
-  background: red;
-  color: yellow;
+  background: var(--color-red);
+  color: var(--color-yellow);
   border-radius: 16px;
   padding: 8px;
   position: absolute;
@@ -23,37 +23,51 @@
 }
 
 .projects-live:hover {
-  border: 2px solid yellow;
+  border: 2px solid var(--color-yellow);
   cursor: pointer;
 }
 
 .projects-code {
-  background: coral;
+  color: var(--color-text);
 }
 
 .projects-content {
-  background: blue;
+  color: var(--color-text);
 }
 
 .projects-content_header {
-  background: blueviolet;
+  color: var(--color-text);
 }
 
-.projects-content_desc {
-  background: burlywood;
+.projects-desc {
+  color: var(--color-text);
   overflow-y: scroll;
-  height: auto;
+  background: var(--color-blog);
+  padding: 1rem;
+  border-radius: 5px;
 }
 
-.projects-content_auth {
-  background: violet;
+.projects-desc::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.projects-desc::-webkit-scrollbar-thumb {
+  background: var(--color-yellow);
+  border-radius: 10px;
+}
+.projects-desc::-webkit-scrollbar-track {
+  background: var(--color-bg);
+  border-radius: 16px;
+}
+
+.projects-author {
+  color: var(--color-text);
   position: relative;
   display: grid;
   grid-template-columns: 75px 1fr;
   align-items: center;
-  margin: 3rem 0 0;
 }
 
-.projects-content_tech {
-  background: darkgray;
+.projects-tech {
+  color: var(--color-text);
 }

@@ -1,42 +1,3 @@
-:root {
-  --font-family: sans-serif;
-
-  --gradient-text: linear-gradient(
-    89.27deg,
-    var(--color-purple) 1.84%,
-    var(--color-yellow) 80.26%
-  );
-  --gradient-bar: linear-gradient(
-    103.22deg,
-    var(--color-purple) -13.84%,
-    var(--color-yellow) 80.26%
-  );
-
-  --radial-gradient-color1: rgba(0, 40, 83, 1);
-  --radial-gradient-color2: rgba(4, 12, 24, 1);
-
-  --color-bg: rgba(4, 11, 22, 1);
-  --color-footer: rgba(3, 27, 52, 1);
-  --color-blog: rgba(4, 44, 84, 1);
-  --color-text: rgba(129, 175, 221, 1);
-  --color-text-light: rgb(177, 233, 255);
-  --color-subtext: rgba(255, 138, 241, 1);
-
-  --color-white: rgba(255, 255, 255, 1);
-  --color-yellow: rgba(251, 255, 0, 1);
-  --color-purple: rgba(186, 109, 238, 1);
-  --color-black: rgba(50, 50, 50, 1);
-
-  --box-shadow1: 0 0 5px rgba(0, 0, 0, 0.2);
-  --box-shadow2: 4px 1px 1px var(--color-yellow);
-  --box-shadow3: 1px 1px 12px 10px var(--color-bg);
-  --box-shadow-bottom: 0 2px 1px var(--color-yellow);
-  --box-shadow25: 0 4px 4px rgba(0, 0, 0, 0.25);
-
-  --text-shadow1: -4px 2px 0 var(--radial-gradient-color1),
-    -3px 4px 0 var(--color-yellow);
-}
-
 html,
 body {
   padding: 0;
@@ -68,4 +29,10 @@ a {
 
 .my-6 {
   margin: 0 6px;
+}
+
+.divider {
+  border-bottom: 2px solid var(--color-blog);
+  width: 50%;
+  padding-top: 1rem;
 }

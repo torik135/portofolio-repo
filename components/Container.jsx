@@ -7,10 +7,12 @@ const Container = () => {
     return (
         <div className="container">
 
+            <div className="divider"></div>
+
             <div className="container-card">
                 <div className="container-card_header">
-                    <h2>TEXT</h2>
-                    <p>TEXT</p>
+                    <h2>HTML & CSS</h2>
+                    <p>this web use HTML & css (native or framework) only</p>
                 </div>
 
                 <div className="container-content card-list">
@@ -34,14 +36,12 @@ const Container = () => {
 
             </div>
     
-            <div className="container-divider">
-            ==================    DIVIDER    ==================
-            </div>
+            <div className="divider"></div>
 
             <div className="container-card">
                 <div className="container-card_header">
-                    <h2>TEXT</h2>
-                    <p>TEXT</p>
+                    <h2>React.js & Next.js</h2>
+                    <p>this web use React.js & Next.js (and css for styling)</p>
                 </div>
 
                 <div className="container-content card-list">

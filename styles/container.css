@@ -1,17 +1,22 @@
 .container {
   display: flex;
   flex-direction: column;
+  padding: 2rem 0 0 1rem;
+  background: var(--color-bg);
+  color: white;
 }
 
 .container-card {
   display: flex;
   flex-direction: row;
+  padding: 0 0 0 1rem;
 }
 
 .container-card_header {
   display: flex;
   flex-direction: column;
-  background: yellow;
+  width: 13rem;
+  padding-right: 2rem;
 }
 
 .container-content {
