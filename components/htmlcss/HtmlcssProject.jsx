@@ -1,21 +1,21 @@
-const HtmlcssProject = ({name, code, web_link, desc, tech}) => {
+const HtmlcssProject = ({name, code, web_link, desc, author, tech}) => {
     return (
-        <div className="htmlcss-container">
-
-            <div className="htmlcss-header">
-                <h2>HTML & CSS Projects</h2>
+        <div className="projects-container card">
+            <div className="projects-live">
+                <a href={web_link} target="_blank" rel="noreferrer">LIVE</a>
             </div>
-            <div className="htmlcss-content">
-                <div className="htmlcss-content_header">
-                    <a href={code}>
-                        <h3>{name}</h3>
-                    </a>
-                    <a href={web_link}>{web_link}</a>
+            
+            <h2>{name}</h2>
+            <a href={code} className="projects-code" target="_blank" rel="noreferrer">{code}</a>
+            
+            <div className="projects-content_desc">
+                <p>{desc}</p>
+            </div>
+            <div className="projects-content">
+                <div className="projects-content_auth">
+                    <p>{author}</p>
                 </div>
-                <div className="htmlcss-content_desc">
-                    <p>{desc}</p>
-                </div>
-                <div className="htmlcss-content_tech">
+                <div className="projects-content_tech">
                     <p>{tech}</p>
                 </div>
             </div>

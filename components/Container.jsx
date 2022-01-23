@@ -13,15 +13,13 @@ const Container = () => {
         <div className="container">
 
             <div className="container-card">
-                <div className="container-htmlcss">
+                <div className="container-card_header">
                     <h2>TEXT</h2>
                     <p>TEXT</p>
                 </div>
 
-                <div className="container-content">
-                    <div className="container-card_heading">
-                        <h3>This Projects only use HTML & CSS</h3>
-                    </div>
+                <div className="container-content card-list">
+                    
                     <div className="container-card_content">
                         <div className="container-card_content-item">
                             {htmlcssData.map((item, index) => (
@@ -30,6 +28,7 @@ const Container = () => {
                                 code={item.code}
                                 web_link={item.web_link}
                                 desc={item.desc}
+                                author={item.author}
                                 tech={item.tech}
                                 key={item.name + index}
                                 />
@@ -45,15 +44,13 @@ const Container = () => {
             </div>
 
             <div className="container-card">
-                <div className="container-reactnext">
+                <div className="container-card_header">
                     <h2>TEXT</h2>
                     <p>TEXT</p>
                 </div>
 
-                <div className="container-content">
-                    <div className="container-card_heading">
-                        <h3>This Projects only use React.js or Next.js</h3>
-                    </div>
+                <div className="container-content card-list">
+                
                     <div className="container-card_content">
                         <div className="container-card_content-item">
                             {reactnextData.map((item, index) => (
@@ -62,6 +59,7 @@ const Container = () => {
                                 code={item.code}
                                 web_link={item.web_link}
                                 desc={item.desc}
+                                author={item.author}
                                 tech={item.tech}
                                 key={item.name + index}
                                 />

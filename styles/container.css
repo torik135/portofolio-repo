@@ -8,6 +8,12 @@
   flex-direction: row;
 }
 
+.container-card_header {
+  display: flex;
+  flex-direction: column;
+  background: yellow;
+}
+
 .container-content {
   display: flex;
   flex-direction: column;

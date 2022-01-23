@@ -1,20 +1,21 @@
-const ReactNextProject = ({name, code, web_link, desc, tech}) => {
+const ReactNextProject = ({name, code, web_link, desc, author, tech}) => {
     return (
-        <div className="reactnext-container">
-            <div className="reactnext-header">
-                <h2>React.js or Next.js Projects</h2>
+        <div className="projects-container card">
+            <div className="projects-live">
+                <a href={web_link} target="_blank" rel="noreferrer">LIVE</a>
             </div>
-            <div className="reactnext-content">
-                <div className="reactnext-content_header">
-                    <a href={code}>
-                        <h3>{name}</h3>.
-                    </a>
-                    <a href={web_link}>{web_link}</a>
+            
+            <h2>{name}</h2>
+            <a href={code} className="projects-code" target="_blank" rel="noreferrer">{code}</a>
+            
+            <div className="projects-content_desc">
+                <p>{desc}</p>
+            </div>
+            <div className="projects-content">
+                <div className="projects-content_auth">
+                    <p>{author}</p>
                 </div>
-                <div className="reactnext-content_desc">
-                    <p>{desc}</p>
-                </div>
-                <div className="reactnext-content_tech">
+                <div className="projects-content_tech">
                     <p>{tech}</p>
                 </div>
             </div>
