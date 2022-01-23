@@ -1,3 +1,3 @@
 # repo for portofolio
 
-## LIVE:
+## LIVE: https://portofolio-repo.vercel.app/
