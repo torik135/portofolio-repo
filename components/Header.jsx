@@ -1,3 +1,5 @@
+import { GoOctoface } from 'react-icons/go'
+
 import Credits from './credits/Credits'
 
 
@@ -7,7 +9,7 @@ const Header = () => {
     return (
         <div className="header-container">
             <div className="header-logo">
-                <h3>logo</h3>
+                <h3><GoOctoface/></h3>
                 <a href={link_code}>
                     <h4>github.com/torik135</h4>
                 </a>
