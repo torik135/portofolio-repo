@@ -1,0 +1,59 @@
+.projects-container {
+  background: yellow;
+}
+
+.projects-container h2 {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects-live {
+  background: red;
+  color: yellow;
+  border-radius: 16px;
+  padding: 8px;
+  position: absolute;
+  margin-top: -45px;
+  /* height: 30px; */
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.projects-live:hover {
+  border: 2px solid yellow;
+  cursor: pointer;
+}
+
+.projects-code {
+  background: coral;
+}
+
+.projects-content {
+  background: blue;
+}
+
+.projects-content_header {
+  background: blueviolet;
+}
+
+.projects-content_desc {
+  background: burlywood;
+  overflow-y: scroll;
+  height: auto;
+}
+
+.projects-content_auth {
+  background: violet;
+  position: relative;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  align-items: center;
+  margin: 3rem 0 0;
+}
+
+.projects-content_tech {
+  background: darkgray;
+}
