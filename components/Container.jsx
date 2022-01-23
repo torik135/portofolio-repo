@@ -1,12 +1,7 @@
-// import Block from "./Block"
+import Projects from '../components/projects/Projects'
 
-// import blockData from "./BlockData"
-
-import HtmlcssProject from '../components/htmlcss/HtmlcssProject'
-import htmlcssData from '../components/htmlcss/htmlcssData'
-
-import ReactNextProject from '../components/reactnext/ReactNextProject'
-import reactnextData from "./reactnext/reactnextData"
+import htmlcssData from '../data/htmlcssData'
+import reactnextData from '../data/reactnextData'
 
 const Container = () => {
     return (
@@ -23,7 +18,7 @@ const Container = () => {
                     <div className="container-card_content">
                         <div className="container-card_content-item">
                             {htmlcssData.map((item, index) => (
-                                <HtmlcssProject
+                                <Projects
                                 name={item.name}
                                 code={item.code}
                                 web_link={item.web_link}
@@ -54,7 +49,7 @@ const Container = () => {
                     <div className="container-card_content">
                         <div className="container-card_content-item">
                             {reactnextData.map((item, index) => (
-                                <ReactNextProject
+                                <Projects
                                 name={item.name}
                                 code={item.code}
                                 web_link={item.web_link}

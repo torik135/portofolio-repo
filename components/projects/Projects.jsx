@@ -1,4 +1,4 @@
-const ReactNextProject = ({name, code, web_link, desc, author, tech}) => {
+const Projects = ({name, code, web_link, desc, author, tech}) => {
     return (
         <div className="projects-container card">
             <div className="projects-live">
@@ -23,4 +23,4 @@ const ReactNextProject = ({name, code, web_link, desc, author, tech}) => {
     )
 }
 
-export default ReactNextProject
+export default Projects
