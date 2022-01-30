@@ -12,6 +12,9 @@ import '../styles/footer.css'
 // card teomplate
 import '../styles/cardcss/card.css'
 
+// mobile view
+import '../styles/media/mobile.css
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
