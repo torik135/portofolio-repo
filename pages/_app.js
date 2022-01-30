@@ -13,7 +13,7 @@ import '../styles/footer.css'
 import '../styles/cardcss/card.css'
 
 // mobile view
-import '../styles/media/mobile.css
+import '../styles/media/mobile.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
