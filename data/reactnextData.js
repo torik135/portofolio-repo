@@ -1,5 +1,13 @@
 const reactnextData = [
     {
+        name: 'Nextjs State CSV',
+        code: 'https://github.com/torik135/nextjs-state-csv',
+        web_link: 'https://nextjs-state-csv.vercel.app/',
+        desc: 'using nextjs state to create data and save it as a csv file',
+        author: 'torik135(mta)',
+        tech: 'reactjs, nextjs, react-csv, js, css, html'
+    },
+    {
         name: 'MODERN UI UX WEB USING NEXT.JS and CSS',
         code: 'https://github.com/torik135/modern-web-nextjs',
         web_link: 'https://modern-web-nextjs.vercel.app/',
